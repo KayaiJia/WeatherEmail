@@ -58,4 +58,5 @@ $ node --experimental-modules main.js
 
 ## License
 Copyright 2022 Kayai Jia
-Licensed under the MIT License.
+
+Licensed under the [MIT License](https://github.com/TOKISAKIKRM/WeatherEmail/blob/main/LICENSE).
