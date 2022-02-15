@@ -1,0 +1,15 @@
+{
+  "startDay" : "",
+  "cityNumber" : "",
+  "key" : "",
+  "type" : "",
+  "title" : "",
+  "service" : "",
+  "sender" : "",
+  "password" : "",
+  "recipient" : "",
+  "iconPath" : "",
+  "hour" : 0,
+  "min" : 0,
+  "interval" : 0
+}

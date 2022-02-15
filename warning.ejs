@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+　
+<head>
+    　　
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    　　<title></title>
+    　　
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body style="margin: 0; padding: 0;">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#86C6F4">
+    <tr>
+        <td>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="600"
+                   style="border-collapse: collapse;">
+                <tr>
+                    <td>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="500">
+                            <tr>
+                                <td style="font-size: 0; line-height: 0;border: none" height="50">&nbsp;</td>
+                            </tr>
+                            <% for (let i=0;i<warning.length;i++){%>
+                            <!--                            标题行-->
+                            <tr>
+                                <td style="padding: 10px 0 10px 0; text-align: center; border-radius: 40px;border: none;font-size: 24px;color: #136394"
+                                    bgcolor="#FCEaA8">
+                                    <%= warning[i].title %>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-size: 0; line-height: 0;border: none" height="50">&nbsp;</td>
+                            </tr>
+                            <!--                            正文-->
+                            <tr>
+                                <td style="padding: 10px 0 10px 0; ext-align: left; border-radius: 40px;border: none;font-size: 18px;color: #136394"
+                                    bgcolor="#FFF1CE">
+                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="500">
+                                        <tr>
+                                            <td style="font-size: 0; line-height: 0;border: none" height="20">&nbsp;
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding-left: 15px">
+                                                <%= warning[i].text %>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 0; line-height: 0;border: none" height="20">&nbsp;
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <%}%>
+                            <tr>
+                                <td style="font-size: 0; line-height: 0;border: none" height="50">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

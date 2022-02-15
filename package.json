@@ -1,0 +1,21 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {},
+  "type": "module",
+  "author": "kayai github@TOKISAKIKRM",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "ejs": "^3.1.6",
+    "fs": "^0.0.1-security",
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.7.2",
+    "path": "^0.12.7",
+    "request-promise-any": "^1.0.9",
+    "schedule": "^0.5.0"
+  }
+}
