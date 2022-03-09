@@ -54,9 +54,9 @@ $ node --experimental-modules main.js
 * [NodeMail](https://github.com/Vincedream/NodeMail) - 也是使用node定时发送邮件
 
 ## Maintainers
-[@TOKISAKIKRM](https://github.com/TOKISAKIKRM)
+[@KayaiJia](https://github.com/KayaiJia)
 
 ## License
 Copyright 2022 Kayai Jia
 
-Licensed under the [MIT License](https://github.com/TOKISAKIKRM/WeatherEmail/blob/main/LICENSE).
+Licensed under the [MIT License](https://github.com/KayaiJia/WeatherEmail/blob/main/LICENSE).
