@@ -126,7 +126,7 @@ const warning = new schedule.scheduleJob(`*/${userData.interval} * * * *`,async 
     }
 })
 
-//固定时间点查询天气发送邮件
+固定时间点查询天气发送邮件
 let weatherRule = new schedule.RecurrenceRule()
 weatherRule.hour= `${userData.hour}`
 weatherRule.minute= `${userData.min}`
@@ -134,5 +134,6 @@ const weather = schedule.scheduleJob(weatherRule,async ()=>{
     isReset = true
     await forWeather()
 })
+
 
 console.log('程序启动')
